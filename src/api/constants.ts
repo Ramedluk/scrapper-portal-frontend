@@ -1,0 +1,13 @@
+export enum APP_HEADERS {
+  AUTH = "Authorization",
+}
+
+export enum STATUSES {
+  INVALID_DATA = 400,
+  AUTHENTICATION = 401,
+  AUTHORIZATION = 403,
+  CONFLICT = 409,
+  NOT_FOUND = 404,
+  DATA_ERROR = 422,
+  SERVER_ERROR = 500,
+}

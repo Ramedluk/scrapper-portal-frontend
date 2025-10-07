@@ -1,0 +1,150 @@
+{
+  "appTitle": "Scraping Portal",
+  "signIn": {
+    "fields": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "placeholders": {
+      "email": "Enter your email",
+      "password": "Enter your password"
+    },
+    "actions": {
+      "signIn": "Sign In"
+    }
+  },
+  "navigation": {
+    "readme": "Readme",
+    "dashboard": "Dashboard",
+    "sites": "Companies",
+    "companies": "Companies",
+    "users": "Users"
+  },
+  "modals": {
+    "signOut": {
+      "title": "Confirm Sign Out",
+      "content": "Are you sure you want to sign out?"
+    },
+    "scrapeAll": {
+      "title": "Confirm Manual Scraping",
+      "content": "Are you sure you want to initiate manual scraping for all companies? This may take some time depending on the number of companies and sites configured."
+    },
+    "scrapingHistory": {
+      "title": "Scraping History",
+      "columns": {
+        "rating": "Rating",
+        "totalReviews": "Total Reviews",
+        "scrapedAt": "Scraped At",
+        "status": "Status"
+      }
+    },
+    "updateSite": {
+      "title": "Update Site",
+      "fields": {
+        "name": "Site Name",
+        "baseUrl": "Base URL",
+        "reviewUrlTemplate": "Review URL Template"
+      },
+      "placeholders": {
+        "name": "Enter site name",
+        "baseUrl": "Enter base URL",
+        "reviewUrlTemplate": "Enter review URL template"
+      }
+    },
+    "createCompany": {
+      "title": "Create Company",
+      "fields": {
+        "name": "Company Name"
+      },
+      "placeholders": {
+        "name": "Enter company name"
+      }
+    },
+    "updateCompany": {
+      "title": "Update Company",
+      "fields": {
+        "name": "Company Name"
+      },
+      "placeholders": {
+        "name": "Enter company name"
+      }
+    },
+    "deleteCompany": {
+      "title": "Confirm Delete Company",
+      "content": "Are you sure you want to delete this company? This action cannot be undone. All associated data will also be deleted."
+    },
+    "createUser": {
+      "title": "Create User",
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password"
+      },
+      "placeholders": {
+        "firstName": "Enter first name",
+        "lastName": "Enter last name",
+        "email": "Enter email",
+        "password": "Enter password"
+      }
+    },
+    "updateUser": {
+      "title": "Update User",
+      "fields": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email"
+      },
+      "placeholders": {
+        "firstName": "Enter first name",
+        "lastName": "Enter last name",
+        "email": "Enter email"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "manualScraping": "Manual Scraping",
+    "companyName": "Company Name",
+    "scrapingLink": "Scraping Link",
+    "noScrapingYet": "No scraping has been performed for this company yet, or company does not have any sites configured.",
+    "columns": {
+      "siteName": "Site Name",
+      "url": "URL",
+      "rating": "Rating",
+      "totalReviews": "Total Reviews",
+      "lastScraped": "Last Scraped",
+      "status": "Status",
+      "history": "History"
+    }
+  },
+  "sites": {
+    "title": "Sites",
+    "columns": {
+      "name": "Name",
+      "baseUrl": "URL",
+      "reviewUrlTemplate": "Review URL Template",
+      "createdAt": "Created At"
+    }
+  },
+  "companies": {
+    "title": "Companies",
+    "create": "Add Company",
+    "columns": {
+      "name": "Name",
+      "createdAt": "Created At"
+    }
+  },
+  "users": {
+    "title": "Users",
+    "create": "Add User",
+    "columns": {
+      "name": "Name",
+      "email": "Email",
+      "createdAt": "Created At"
+    }
+  },
+  "common": {
+    "actions": "Actions"
+  }
+}
